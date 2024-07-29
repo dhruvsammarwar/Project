@@ -1,0 +1,194 @@
+.Request {
+    background-color: black;
+    color: white;
+    border-radius: 1px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.Request:hover{
+    background-color: rgb(44, 43, 43);
+    opacity: 0,65;
+    transition: opecity 0.15s;
+}
+.add{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 75px 10px 75px;
+    margin-top: 10px;
+}
+.add:hover{
+        background-color: rgb(241, 204, 17) ;
+        opacity: 0.90;
+        transition: opecity 0.15s;
+        box-shadow: 5px 6px 11px rgba(0, 0, 0, 0.2);
+}
+.sign {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding:  10px 20px 10px 20px;
+    margin-top: 10px;
+}
+.sign:hover{
+    background-color:rgb(35, 161, 70); 
+    transition: opecity 0.15s;
+}
+.get{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border-radius: 2px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.get:hover{
+    background-color: rgb(115, 64, 192);
+    transition: opecity 0.15s;
+}
+.download{
+    background-color: white;
+    color: gray;
+    border-radius: 3px;
+    border: solid;
+    border-width: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.download:hover{
+    background-color: gray;
+    color: white;
+    transition: opecity 0.15s;
+}
+.apply{
+    background-color: rgb(94, 40, 244);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.apply:hover{
+    background-color: rgb(82, 48, 174);
+    transition: opecity 0.15s;
+    box-shadow: 5px 6px 11px rgba(0, 0, 0, 0.2);
+}
+.save{
+    background-color: white;
+    color: gray;
+    border-radius: 20px;
+    border: solid;
+    border-width: 1px;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 10px;
+}
+.save:hover{
+    background-color: gray;
+    color: white;
+    transition: opecity 0.15s;
+}
+.back{
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: medium;
+}
+.next{
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: medium;
+}
+a{
+    padding: 15px 8px;
+    font-size: large;
+}
+.stretch{
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    padding:5px 15px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.75s;
+}
+.stretch:hover{
+    padding: 15px 40px;
+}
+.shadow{
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 5px 5px 25px rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+.shadow:active{
+    margin-top: 15px;
+    margin-left: 7px;
+    box-shadow: none;
+    
+}
+.one{
+    margin: 10px 10px;
+    background-color: green;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    font-size: 20px;
+    transition: 0.75s;
+}
+.two{
+    margin: 10px 10px;
+    background-color: green;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    font-size: 20px;
+    transition: 0.75s;
+}
+.three{
+    margin: 10px 10px;
+    background-color: green;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    font-size: 20px;
+    transition: 0.75s;
+}
+.one:hover{
+    padding: 5px 25px ;
+    transition: 0.95;
+    margin:  0px 0px;
+}
+.two:hover{
+    padding: 5px 25px ;
+    transition: 0.95;
+    margin:  0px 0px;
+}
+.three:hover{
+    padding: 5px 25px ;
+    transition: 0.95;
+    margin:  0px 0px;
+}
