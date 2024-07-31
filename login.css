@@ -1,0 +1,33 @@
+
+body{
+    background-color: black;
+}
+
+
+.box{
+    border: 2px solid rgb(250, 248, 248);
+    width: 420px;
+    height: 200px;
+}
+input{
+    margin: 2px 5px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1.5px solid;
+}
+.email{
+    margin-top: 5px;
+    width: 353px;
+    border: none;
+    border: 1.5px solid;
+    display: block;
+}
+.button{
+    margin: 0px;
+    background-color: blue;
+    padding: 10px 170px;
+    color: white;
+    font-size: large;
+    border: 1.5px solid;
+    border-radius: 10px;
+}
