@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.container{
+    border: 2px solid rgb(8, 6, 6);
+    width: 700px;
+    height: 200px;
+    text-align: center;
+    background-color: red;
+
+}
+.small-input{
+    margin-top: 10px;
+    width: 44.7%;
+    padding: 0px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 0px 5px 0.5%;
+    color: blue;
+    
+}
+.small-input::placeholder{
+    color: brown;
+}
+.email{
+    margin-top: 10px;
+    border-radius: 3px;
+    display: block;
+    margin-left: 4.5%;
+    width: 90%;
+    padding: 0px;
+    border: none;
+    padding: 5px 0px 5px 1%;
+    outline-color: gray;
+
+}
+.button{
+    margin-top: 10px;
+    width: 91%;
+    padding: 0;
+    border: none;
+    background-color: rgb(68, 68, 242);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+
+}
+
+</style>
+<body>
+    <div class="container">
+        <input type="text" class="small-input" placeholder="First name">
+        <input type="text" class="small-input" placeholder="Last name">
+        <input class="email" type="text" placeholder="Email">
+        <button class="button">sign up</button>
+    </div>
+</body>
+</html>
