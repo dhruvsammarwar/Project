@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background: linear-gradient(to right,#155799,#159957); 
+    }
+
+    .login{
+        position: absolute;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        background: transparent;
+        backdrop-filter: blur(20px);
+        background-color: rgba(11, 15, 13, 0.58);
+        width: 500px;
+        height: 500px;
+        top: 18%;
+        left: 33%;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+    }
+    h2{
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+    }
+    h4{
+        color: gray;
+        text-align: center;
+    }
+    label{
+        color: white;
+        margin-left: 40px;
+        font-weight: 500;
+    }
+    .small-input{
+        display: block;
+        margin: 5px 40px 25px;
+        width: 80%;
+        padding: 10px 10px 10px 1%;
+    }
+    .check{
+        margin-left: 5px;
+        margin-right: 0px;
+    }
+    a{
+        margin-left: 180px;
+        font-weight: 700;
+        color: blue;
+    }
+    .button{
+        display: block;
+       background-color: black;
+        margin: 30px 40px 0px 40px;
+        color: white;
+        font-weight: 700;
+        border: none;
+        width: 83.5%;
+        padding: 10px;
+        cursor: pointer;
+    }
+    p{
+        font-size: 12px;
+        text-align: center;
+        color: white;
+        margin-right: 0px;
+        font-size: medium;
+    }
+    .register{
+        margin: 0px;
+        font-size: medium;
+    }
+</style>
+<body>
+    <div class="login">
+        <h2>Sign in</h2>
+        <h4>Sign in with your username and password</h4>
+        <label>username</label>
+        <input class="small-input" type="text" placeholder="Enter username">
+        <label>password</label>
+        <input class="small-input" type="password" placeholder="Enter password">
+        <label><input class="check" type="checkbox">Remember me</label>
+        <a href="#">Forget Password&#63</a>
+        <button class="button">Login</button>
+        <p>Not a memberd&#63 <a class="register" href="#">Register here!</a></p>
+    </div>
+</body>
+</html>
