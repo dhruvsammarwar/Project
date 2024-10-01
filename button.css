@@ -57,6 +57,7 @@
     transition: opecity 0.15s;
 }
 .download{
+    opacity: 2;
     background-color: white;
     color: gray;
     border-radius: 3px;
