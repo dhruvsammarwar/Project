@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        height: 80px;
+        top: 0;
+        left: 0;
+        background-color: aqua;
+    }
+    p{
+        font-size: 35px;
+        font-weight: 800;
+    }
+    .logo{
+        display: flex;
+        justify-content: start;
+        padding-left: 50px;
+    }
+    .ulist{
+        display: flex;
+        /* padding-top: 80px; */
+        padding-right: 70px;
+    }
+    li{
+        list-style-type: none;
+        padding: 0px 25px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .dropdown{
+        display: none;
+        background-color:gray;
+        padding: 0px;
+        width: 100px;
+        height: 180px;
+    }
+    .list{
+        padding: 10px 10px 10px 15px;
+    }
+    .page:hover .dropdown{ 
+        position: absolute;
+        display: block;
+        color: black;
+
+    }
+    ul{
+        padding: 0px;
+    }
+    .list1{
+        padding:10px 10px 10px 15px;
+    }
+    .list1:hover .dropdown1{ 
+        position: absolute;
+        top: 90px;
+        left: 100px;
+        display: block;
+        color: black;
+    }
+    .dropdown1{
+        display: none;
+        background-color:gray;
+        padding: 0px;
+        width: 100px;
+        height: 180px;
+    }
+</style>
+<body>
+     <nav class="navbar">
+       <div class="logo">
+           <p>LOgo</p>
+        </div>
+
+        <ul class="ulist">
+          <li>Home</li>
+          <li>Contact</li>
+          <li class="page">Pages&#11206
+            <div class="dropdown">
+               <ul>
+                <li class="list">Home1</li>
+                <li class="list">Home2</li>
+                <li class="list1">Home3 &#129170<div class="dropdown1">
+                        <ul>
+                         <li class="list">Home1</li>
+                         <li class="list">Home2</li>
+                         <li class="list">Home3</li>
+                         <li class="list">Home4</li>
+                        </ul>
+                     </div>
+                </li>
+                <li class="list">Home4</li>
+               </ul>
+            </div>
+          </li>
+          <li>Help</li>
+          <li>About us</li>
+        </ul>  
+     </nav>
+</body>
+</html>
+AboutPressCopyrightContact usCreatorsAdvertiseDevelopers
+TermsPrivacyPolicy & SafetyHow YouTube worksTest new features
+© 2024 Google LLC

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/540b40c4e1.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    body{
+        height: 200vh;
+    }
+    .reletive{
+        border: 1px solid black;
+        position: relative;
+        left: 50px;
+        top: 50px;
+    }
+    .sticky{
+        border: 1px solid black;
+        position: sticky;
+        top: 10px
+        
+    }
+    .sidebar{
+        background-color: aqua;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 250px;
+    }
+    #icon{
+        position: absolute;
+        color: black;
+        font-size: 50px;
+        top: 10px;
+        right: 10px;
+    }
+</style>
+<body>
+    <!-- <div class="reletive">reletive</div>
+    <div class="sticky">sticky</div> -->
+    <div class="sidebar">
+            <i class="fa-solid fa-users-viewfinder" id="icon"></i>
+    </div>
+</body>
+</html>
