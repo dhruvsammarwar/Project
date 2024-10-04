@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    let var1;
+    function fun1(){
+    var1=var2+var3;
+    document.getElementById("total-product").innerHTML=var1;
+    }
+    let var2;
+    function fun2(){
+      var2=var2+1;
+      document.getElementById("product-1").innerHTML=var2;
+    }
+    let var3;
+    function fun3(){
+      var3=var3+1;
+      document.getElementById("product-2").innerHTML=var3;
+    }
+    function fun4(){
+      if(var2>0){
+        var2=var2-1;
+      }
+      document.getElementById("product-1").innerHTML=var2;
+    }
+    function fun5(){
+      if(var3>0){
+        var3=var3-1;
+      }
+      document.getElementById("product-2").innerHTML=var3;
+    }
+    function fun6(){
+      document.getElementById("total-product").innerHTML=var1=0;
+      document.getElementById("product-1").innerHTML=var2 =0;
+      document.getElementById("product-2").innerHTML=var3=0;
+    }
+</script>
+<body>
+    <!-- <select name="dropdown" id="">
+        <option value="">
+            Home 
+        </option>
+        <option value="">
+            Contect
+        </option>
+        <option value="">
+            Design 
+        </option>
+        <option value="">
+            Option 
+        </option>
+        <option value="">
+            About US 
+        </option>
+    </select> -->
+    <h1>Total no. of product=<span id="total-product"></span></h1>
+
+    <h1> no. of product 1=<span id="product-1"></span></h1>
+    <h1> no. of product 2=<span id="product-2"></span></h1>
+
+    <button  onclick="fun2(),fun1()"> add product 1 </button>
+    <button  onclick="fun3(),fun1()"> add product 2</button>
+
+    <button  onclick="fun4(),fun1()"> subtract product 1</button>
+    <button  onclick="fun5(),fun1()"> subtract product 2</button>
+
+    <button  onclick="fun6()"> Clear cart</button>
+</body>
+</html>
