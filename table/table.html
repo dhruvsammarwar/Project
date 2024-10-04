@@ -6,30 +6,44 @@
     <title>Document</title>
 </head>
 <style>
-    
-    th{
-        border: 1px solid black;
-        border: none;
-        margin: 0px;
-        padding: 0PX;
-        color: white;
-        background-color: orange;
-        padding: 10px 20px 10px 20px;
-    }
-    td{
-        border: 1px solid black;
-        border: none;
-        background-color: lightsalmon;
-        padding: 10px 30px 10px 30px;
+    table{
+        border-collapse: collapse;
     }
     .table1{
-         background-color: white;
-         border: none;
+        background-color: white;
     }
     .table2{
         background-color: green;
         color: white;
     }
+    table, th, td {
+      padding: 4px 16px;  
+      text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: smaller;
+        border: 0.1px solid rgb(255, 255, 255);
+    }
+    th{
+        background-color: orange;
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+    }
+    .para1{
+        background-color: rgb(79, 165, 136);
+        color: rgb(255, 255, 255);
+    }
+    #empty{
+        background-color: white;
+    }
+   tbody tr:nth-child(odd){
+        background-color: rgb(232, 198, 205);
+    }
+   tbody tr:nth-child(even){
+        background-color: pink;
+    } 
+   /* tbody tr:nth-child(1){
+        background-color: rgb(79, 73, 73);
+    } */
 
 </style>
 <body>
