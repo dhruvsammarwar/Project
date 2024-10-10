@@ -6,19 +6,15 @@
     <title>Document</title>
 </head>
 <script>
-    let var1;
-    function fun1(){
-    var1=var2+var3;
-    document.getElementById("total-product").innerHTML=var1;
-    }
-    let var2;
+    let var2=0,var3=0,var1=0;
     function fun2(){
-      var2=var2+1;
+      var2=var2+parseInt(document.getElementById('quentity-1').value);
       document.getElementById("product-1").innerHTML=var2;
+      
     }
-    let var3;
+    // let var3;
     function fun3(){
-      var3=var3+1;
+      var3=var3+parseInt(document.getElementById('quentity-2').value);
       document.getElementById("product-2").innerHTML=var3;
     }
     function fun4(){
@@ -38,35 +34,55 @@
       document.getElementById("product-1").innerHTML=var2 =0;
       document.getElementById("product-2").innerHTML=var3=0;
     }
+    // let var1;
+    function fun1(){
+    var1=var2+var3;
+    document.getElementById("total-product").innerHTML=var1;
+    }
+    
 </script>
 <body>
-    <!-- <select name="dropdown" id="">
-        <option value="">
-            Home 
-        </option>
-        <option value="">
-            Contect
-        </option>
-        <option value="">
-            Design 
-        </option>
-        <option value="">
-            Option 
-        </option>
-        <option value="">
-            About US 
-        </option>
-    </select> -->
     <h1>Total no. of product=<span id="total-product"></span></h1>
 
+
     <h1> no. of product 1=<span id="product-1"></span></h1>
+
+
     <h1> no. of product 2=<span id="product-2"></span></h1>
 
-    <button  onclick="fun2(),fun1()"> add product 1 </button>
-    <button  onclick="fun3(),fun1()"> add product 2</button>
 
-    <button  onclick="fun4(),fun1()"> subtract product 1</button>
-    <button  onclick="fun5(),fun1()"> subtract product 2</button>
+    <button  onclick="fun2(),fun1()"> add product 1 </button>
+    <select name="" id="quentity-1">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+    </select><br>
+
+
+    <button  onclick="fun3(),fun1()"> add product 2</button>
+    <select name="" id="quentity-2">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+    </select><br>
+
+
+    <button  onclick="fun4(),fun1()"> subtract product 1</button><br>
+    <button  onclick="fun5(),fun1()"> subtract product 2</button><br>
 
     <button  onclick="fun6()"> Clear cart</button>
 </body>

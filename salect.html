@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select name="quentity" id="quentity">
+        <option value="1">Home</option>
+        <option value="2">Contect</option>
+        <option value="3">About us</option>
+    </select>
+    <button onclick="fun1()">Click</button>
+</body>
+</html>
+<script>
+    function fun1(){
+    let e=document.getElementById('quentity');
+    //   alert(e.value);
+      alert(e.options[e.selectedIndex].text);
+      
+    }
+</script>
